@@ -5,14 +5,14 @@ import time
 driver = webdriver.Chrome()
 
 # Open the page
-driver.get('http://127.0.0.1:5500/home/home/index.html')
+driver.get('https://aggie-website-portfolio.my.canva.site/computational')
 time.sleep(5)  # Wait for the page to load fully
 
 # Get the page's HTML source
 html_content = driver.page_source
 
 # Save it to a file
-with open('exact_copy.html', 'w', encoding='utf-8') as file:
+with open('canva.html', 'w', encoding='utf-8') as file:
     file.write(html_content)
 
 # Close the driver

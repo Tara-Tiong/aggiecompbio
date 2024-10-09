@@ -1,0 +1,144 @@
+/* What is Computational Biology */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+    unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi.woff2) format('woff2');
+    unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+}
+
+.svg-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* About */
+
+.word-rectangle {
+    width: 40vw;
+    height: 40vh;
+    padding: 10px;
+    border: 10px white;
+    box-sizing: border-box;
+
+}
+
+.title1 {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+color: #FFFFFF;
+
+}
+
+.svg {
+    justify-content: center;
+}
+/* US */
+
+.title2 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+color: #FFFFFF;
+
+position: absolute;
+width: 119px;
+height: 75px;
+}
+
+/* Text */
+
+text {
+position: absolute;
+width: 280px;
+height: 267px;
+}
+
+
+/* About */
+h1{
+/* position: absolute; */
+width: 280px;
+height: 72px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+}
+
+
+/* Us */
+h2 {
+/* position: absolute; */
+width: 119px;
+height: 75px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+
+color: #FFFFFF;
+}
+
+
+
+/* With the increasing pervasiveness and potential of machine learning and computation in  genomics, neuroscience, and medicine, acquaintance with computational tools in biology has become more important than ever.  */
+p {
+/* position: absolute; */
+/*  */
+
+font-family: 'Lato';
+/* font-style: normal; */
+font-weight: 100;
+font-size: 30px;
+/* line-height: 17px; */
+
+color: #FFFFFF;
+}
+
+.belowhead {
+    background: white;
+    padding: 10em;
+}
+
+.mosttext{
+    /* font-size: 20px; */
+    color: black;
+    font-family: 'Lato';
+    /* padding-left: 25vw; */
+    /* justify-content: right; */
+    text-align: center;
+    /* justify-content: center; */
+}
+/* </div>
+<div class="word-rectangle">
+<h1>About</h1>
+<h2>Us</h2>
+<p> With the increasing pervasiveness and potential of machine learning and computation in  genomics, neuroscience, and medicine, acquaintance with computational tools in biology has become more important than ever. 
+</p> */
